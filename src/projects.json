@@ -1,0 +1,23 @@
+[
+  {
+    "image": "https://imgur.com/K8HBX2N.png",
+    "appLink": "https://morning-earth-44249.herokuapp.com/",
+    "title": "COVID-19 Tracker",
+    "about": "Collaborative project that displays COVID-19 testing information with up to date information. On the backend there is a daily scheduled pull for data that is pushed into a MySQL database that stores the data in the event that the source data is unavailable. The displayed map has a tool tip that appears on hover of a specific state to display the positive & negative cases as well as the number of deaths currently.",
+    "gitLink": "https://github.com/jkile/covid-19-tracker"
+  },
+  {
+    "image": "https://imgur.com/jsrAufY.png",
+    "appLink": "https://justphvn.github.io/ProjectOne-Vibes/",
+    "title": "Mood Quiz",
+    "about": "User will fill out a mood questionnaire that will randomly generate a GIF and quote of Kanye of Donald Trump. The gif will be accompanied by a Kanye song.",
+    "gitLink": "https://github.com/JustPhvn/ProjectOne-Vibes"
+  },
+  {
+    "image": "https://imgur.com/gynpUzM.png",
+    "appLink": "https://justphvn.github.io/Just-PassGen-js/",
+    "title": "Password Generator",
+    "about": "Password generator with checkboxes and a form to create password. Has options for lowercase characters, uppercase characters, special characters, numbers, and the length of the password (min 8 characters, max 128 characters). Will alert user if no password options are chosen and if length is too small or too large.",
+    "gitLink": "https://github.com/JustPhvn/Just-PassGen-js"
+  }
+]

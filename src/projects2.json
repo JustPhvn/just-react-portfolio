@@ -1,0 +1,23 @@
+[
+  {
+    "image": "https://imgur.com/nHO7gtE.png",
+    "appLink": "https://justphvn.github.io/JustADayPlanner/",
+    "title": "Day Planner",
+    "about": "Planner that has calendar timeslots for traditional business hours of 9am to 5pm. Calendar items can be saved using the button to the right of the slot. Items persist through reloads and calendar sets timeslot style depending on load time. Timeslot styles can be past hours, current hour, or future hours.",
+    "gitLink": "https://github.com/JustPhvn/JustADayPlanner"
+  },
+  {
+    "image": "https://imgur.com/2EqZ8q8.png",
+    "appLink": "https://justphvn.github.io/JustAnotherWeatherDash/",
+    "title": "Weather Dashboard",
+    "about": "Weather dashboard that brings up current weather and 5-day forecast. Also saves searches to the sidebar and on reload opens the last searched city. Changes UV background color depending on UV value that comes back.",
+    "gitLink": "https://github.com/JustPhvn/JustAnotherWeatherDash"
+  },
+  {
+    "image": "https://imgur.com/xwppjNa.png",
+    "appLink": "https://justphvn.github.io/Just-ACodeQuiz-js/",
+    "title": "Coding Quiz (Lite)",
+    "about": "Quiz that uses DOM manipulation to go through the quiz. Has a timer that starts on quiz start and stops on quiz end. Quiz taker can save score at the end of the quiz and take the quiz again.",
+    "gitLink": "https://github.com/JustPhvn/Just-ACodeQuiz-js"
+  }
+]
