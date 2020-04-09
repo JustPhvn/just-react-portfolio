@@ -2,29 +2,6 @@ import React from "react";
 import "bulma";
 import "./style.css";
 
-<div class="tile is-ancestor">
-            {this.state.projects.map((project) => (
-              <Card
-                image={project.image}
-                appLink={project.appLink}
-                title={project.title}
-                about={project.about}
-                gitLink={project.gitLink}
-              />
-            ))}
-          </div>
-          <div class="tile is-ancestor">
-            {this.state.projects2.map((project) => (
-              <Card
-                image={project.image}
-                appLink={project.appLink}
-                title={project.title}
-                about={project.about}
-                gitLink={project.gitLink}
-              />
-            ))}
-          </div>
-
 function Card(props) {
   return (
     <div class="tile is-parent">
@@ -45,7 +22,7 @@ function Card(props) {
             </div>
             <div class="content">
               {props.about}
-              <a href={props.gitLink}>GitHub</a>
+              <a href={props.gitLink}> GitHub</a>
               <br />
             </div>
           </div>

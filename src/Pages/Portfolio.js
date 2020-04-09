@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import "bulma";
-import projects from "./projects.json";
-import projects2 from "./projects2.json";
+import Card from "../components/Card";
+import projects from "../projects.json";
+import projects2 from "../projects2.json";
 
 class Portfolio extends Component {
   state = {

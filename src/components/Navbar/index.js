@@ -11,9 +11,15 @@ function Navbar() {
             Justice Phan
           </p>
 
-          <a class="navbar-item">Portfolio</a>
-          <a class="navbar-item">Resume</a>
-          <a class="navbar-item">Contact</a>
+          <a class="navbar-item" href="/portfolio">
+            Portfolio
+          </a>
+          <a class="navbar-item" href="/resume">
+            Resume
+          </a>
+          <a class="navbar-item" href="/contact">
+            Contact
+          </a>
           <a class="navbar-item" href="https://github.com/JustPhvn">
             GitHub
           </a>

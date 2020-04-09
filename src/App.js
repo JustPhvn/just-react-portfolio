@@ -1,29 +1,26 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Card from "./components/Card";
 import Resume from "./components/RESUME";
 import Contact from "./components/Contact";
+import Portfolio from "./Pages/Portfolio";
 
 import "bulma";
 import "./App.css";
 
 class App extends Component {
-  state = {
-    projects,
-    projects2,
-  };
-
   render() {
     return (
       <div class="container">
         <Navbar />
-        <Switch>
-          <Route exact path="/" component={Card} />
-
-          <Resume />
-          <Contact />
-        </Switch>
+        <Router>
+          <Switch>
+            <Route exact path="/" component={Portfolio} />
+            <Route exact path="/portfolio" component={Portfolio} />
+            <Route exact path="/resume" component={Resume} />
+            <Route exact path="/contact" component={Contact} />
+          </Switch>
+        </Router>
       </div>
     );
   }
